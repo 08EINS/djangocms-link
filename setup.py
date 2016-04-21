@@ -22,14 +22,14 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='djangocms-link',
+    name='djangocms-link-08eins-custom',
     version=__version__,
     description='Link Plugin for django CMS',
     author='Divio AG',
     author_email='info@divio.ch',
     url='https://github.com/divio/djangocms-link',
     packages=['djangocms_link', 'djangocms_link.migrations', 'djangocms_link.south_migrations'],
-    install_requires=['django-select2>=4.3,<5.0'],
+    install_requires=['django-select2'],
     license='LICENSE.txt',
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,
